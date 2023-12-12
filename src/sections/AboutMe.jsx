@@ -10,8 +10,7 @@ import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
-import { Button, Timeline } from 'flowbite-react';
-import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Timeline } from 'flowbite-react';
 
 const AboutMe = () => {
     return (
