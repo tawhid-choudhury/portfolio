@@ -1,8 +1,6 @@
 'use client';
 import { Button, List } from 'flowbite-react';
 import { Link } from 'react-router-dom';
-
-import JobFinderSS from './JobFinderSS';
 import BrandDealsSS from './BrandDealsSS';
 
 

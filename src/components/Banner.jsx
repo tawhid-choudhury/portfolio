@@ -1,5 +1,7 @@
+import { Button } from "flowbite-react";
 import banner from "../assets/Colored Patterns.svg";
 import pic from "../assets/Screenshot 2023-12-12 004das631.png";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
@@ -12,6 +14,9 @@ const Banner = () => {
                     <h5 className="text-[#8fa5c3] text-lg md:text-2xl font-mono ">Hi there! I am ...</h5>
                     <h1 className="text-[#1caee8] text-2xl md:text-5xl font-normal font-roboto">Tawhid Al Muhaimin Choudhury</h1>
                     <h5 className="text-[#8fa5c3] text-lg md:text-2xl font-roboto font-light ">I am a passionate frontend developer who likes to craft quality and scalable websites</h5>
+                    <Link to="https://drive.google.com/file/d/1VpAJpQGMCx6Yobsenl_Q7oFpUBvT6N_C/view?usp=sharing">
+                        <Button className="bg-[#1caee8] mt-3">Download Resume</Button>
+                    </Link>
                 </div>
                 <div className="rounded-full overflow-hidden border-[5px] p-5 border-[#1caee8]">
                     <div className="rounded-full overflow-hidden">
